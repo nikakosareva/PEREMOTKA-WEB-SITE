@@ -1,0 +1,270 @@
+body {
+    width: 110vw;
+    overflow-x: hidden;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    background: #000000;
+}
+
+h1{
+    font-family: 'NeutralFaceBold';
+    color: white;
+}
+
+h2{
+    font-family: "ProximaNovaRegular";
+    color: white;
+    opacity: 50%;
+    font-size: 1.8vw;
+}
+
+h3{
+    font-family: 'NeutralFace';
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:active{
+    text-decoration: none;
+}
+
+/*SHAPKA*/
+
+.logo{
+    margin: 1.5%;
+}
+
+.chapter{
+    margin-left: 67.5vw;
+    margin-top: -3vw;
+    display: flex;
+    flex-direction: row;
+    width: 30vw;
+    justify-content: space-between;
+}
+
+/*PROFILE*/
+
+.profile{
+    margin-top: 2vw;
+    height: 48vh;
+}
+
+.woman{
+    padding: 1vw;
+    margin-top: -19vh;
+}
+
+.lebedeva{
+    margin-top: -47vh;
+    margin-left: 24vw;
+    height: 25vh;
+}
+
+.nadezhda{
+    font-size: 3.5vw;
+    margin-block-end: 8vh;
+}
+
+.notification {
+    max-width: 22vw;
+    padding: 3vh 8vw;
+    position: relative;
+    font-family: 'NeutralFace';
+    font-size: 2vw;
+    color: white;
+    /* background-color: black; */
+    background-image: linear-gradient(to right, #48E2DC, #000000, #48E2DC); 
+    padding: 3px;
+    transition: 3s;
+    margin-left: 75vw;
+    margin-top: -25vh;
+    text-align: left;
+  }
+
+.notification:hover{
+    background-image: linear-gradient(to right, #000000, #48E2DC, #000000); 
+    transition: 3s;
+}
+
+.place {
+    background: black;
+    color: white;
+    text-align: center;
+    max-width: 20vw;
+    padding: 3vh 2.5vw;
+    /* margin-left: -6vw; */
+}
+
+.visit{
+    width: 30vw;
+    margin-left: -6.5vw;
+    font-size: 2vw;
+}
+
+/*STATISTICS*/
+
+.statistics{
+    height: 116vh;
+}
+
+.line-of-life{
+    padding: 1vw;
+    height: 34vh;
+    width: 80vw;
+    margin-left: 4vw;
+}
+
+.heading-one{
+    font-size: 2vw;
+    margin-left:10.5vw;
+    margin-top: -34vh;
+}
+
+.pathology{
+    padding: 1vw;
+    height: 57vh;
+    margin-left: 4.2vw;
+}
+
+.heading-two{
+    font-size: 2vw;
+    margin-left: 6.5vw;
+    margin-top: -56vh;
+}
+
+.library{
+    padding: 2vw;
+    margin-left: 25vw;
+    margin-top: -32.5vh;
+    height: 28.5vh;
+}
+
+.heading-three{
+    font-size: 2vw;
+    margin-left: 28vw;
+    margin-top: -30vh;
+}
+
+.integrity{
+    padding: 2vw;
+    margin-left: 25vw;
+    margin-top: -9.3vw;
+    height: 26vh;
+}
+
+.heading-four{
+    font-size: 2vw;
+    margin-left: 28vw;
+    margin-top: -27vh;
+}
+
+.heading-five{
+    font-size: 4vw;
+    margin-left: 1.5vw;
+    margin-top: 4vh;
+    margin-left: 29vw;
+}
+
+/*SIGN UP*/
+.signup{
+    margin-block-end: 5vh;
+}
+
+.button9 {
+    max-width: 47vw;
+    padding: 3vh 10vw;
+    position: relative;
+    font-family: 'NeutralFace';
+    font-size: 1.3vw;
+    color: white;
+    /* background-color: black; */
+    background-image: linear-gradient(to right, #48E2DC, #000000, #48E2DC); 
+    padding: 3px;
+    transition: 3s;
+    margin-left: 40vw;
+    margin-top: -25vh;
+}
+
+.button9:hover{
+    background-image: linear-gradient(to right, #000000, #48E2DC, #000000); 
+    transition: 3s;
+}
+
+.connectone {
+    background: black;
+    color: white;
+    text-align: center;
+    max-width: 47vw;
+    padding: 3vh 10vw;
+    font-family: 'NeutralFace';
+    color: white;
+    font-size: 1.3vw;
+}
+
+.button10 {
+    max-width: 17vw;
+    padding: 3vh 7vw;
+    position: relative;
+    font-family: 'NeutralFace';
+    font-size: 1.3vw;
+    color: white;
+    /* background-color: black; */
+    background-image: linear-gradient(to right, #48E2DC, #000000, #48E2DC); 
+    padding: 3px;
+    transition: 3s;
+    margin-left: 80.5vw;
+    margin-top: -9vh;
+}
+
+.button10:hover{
+    background-image: linear-gradient(to right, #000000, #48E2DC, #000000); 
+    transition: 3s;
+}
+
+.connecttwo {
+    background: black;
+    color: white;
+    text-align: center;
+    max-width: 17vw;
+    padding: 3vh 4vw;
+}
+
+.contact-form{
+    margin-right: 25vw;
+    margin-top: -25vh;
+}
+
+.data{
+    display: flex;
+    justify-content: space-between;
+    width: 78vw;
+    margin-top: 5vh;
+
+}
+
+.contacts{
+    font-size: 3vw;
+    margin-left: 40vw;
+}
+
+.contacts-opacity, .information-opacity, .ysluga-opacity{
+    opacity: 100%;
+    padding-block-end: 2vw;
+}
+
+.theend{
+    height: 35vh;
+}
+
+.hover-opacity{
+    opacity: 50%;
+}
+
+.hover-opacity:hover{
+    opacity: 100%;
+}

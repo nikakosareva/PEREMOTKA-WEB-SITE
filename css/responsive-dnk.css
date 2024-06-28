@@ -1,0 +1,249 @@
+/* телефон / 430 / 360 */
+@media only screen and (min-device-width: 360px) and (max-device-width: 430px){
+    .logo{
+        margin-top: 2vh;
+        margin-left: 3vw;
+        padding: 2vw;
+    }
+
+    .chapter{
+        opacity: 0;
+    }
+
+    /* profile */
+    .dna-heading{
+        font-size: 7vw;
+        margin-top: -4vh;
+        margin-left: 3vw;
+    }
+
+    .chance-line{
+        width: 93vw;
+        margin-left: 3vw;
+    }
+    
+    .dna-photo{
+        margin-top: 2vh;
+        font-size: 3.7vw;
+        margin-left: 3vw;
+    }
+    
+    .your-chance-description{
+        margin-top: 1vh;
+        padding-left: 2vw;
+        width: 93vh;
+        height: 40vh;
+    }
+
+    .dna-photo-1{
+        margin-top: -7vh;
+        margin-left: 1.5vw;
+        width: 92vw;
+    }
+
+    .dna-photo-2, .dna-photo-3{
+        opacity: 0;
+    }
+
+    .our-history, .our-crew {
+        width: 92vw;
+        height: 14vh;
+        position: relative;
+        font-family: 'NeutralFace';
+        color: white;
+        background-image: linear-gradient(to right, #48E2DC, #000000, #48E2DC); 
+        padding: 1px;
+        margin-left: 4.5vw;
+        margin-top: -32vh;
+    }
+
+    .our-crew{
+        margin-left: 4.5vw;
+        margin-top: 2vh;
+    }
+    
+    .first-link, .second-link{
+        max-width: 92vw;
+        max-height: 5vh;
+        padding-top: 3vh;
+        padding-left: 1vw;
+        padding-block-end: 6vh;
+        background: black;
+    }
+    
+    .history, .vacancy {
+        color: white;
+        font-size: 4vw;
+        margin-block-end: 1vh;
+        margin-left: 2vw;
+        margin-top: -1vh;
+    }
+    
+    .tell, .become{
+        width: 90vw;
+        margin-left: 2vw;
+        margin-block-end: 2vh;
+        font-size: 4vw;
+        /* margin-top: -10vh; */
+    }
+    
+    .dna-button-1, .dna-button-2 {
+        max-width: 28vw;
+        position: relative;
+        font-family: 'NeutralFace';
+        font-size: 2.5vw;
+        color: white;
+        background-image: linear-gradient(to right, #48E2DC, #000000, #48E2DC); 
+        padding: 1px;
+        transition: 3s;
+        margin-left: 3vw;
+        margin-top: -5vh;
+    }
+    
+    .lookaf {
+        background: black;
+        color: white;
+        text-align: center;
+        max-width: 26vw;
+        padding: 1vh 2vw;
+    }
+
+
+    /*BOOKS*/
+    .rectangles{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .rectangle-one{
+        padding: 2vw;
+        font-size: 4vw;
+        margin-right: -2.8vw;
+        width: 54vh;
+    }
+    
+    .rectangle-heading-one, .rectangle-heading-two{
+        margin-top: 3vw;
+        margin-left: 3vw;
+    }
+
+    .rectangle-heading-two{
+        font-size: 4vw;
+    }
+
+    .rectangle-two{
+        padding: 2vw;
+        font-size: 4vw;
+        margin-right: -2.8vw;
+        width: 54vh;
+        margin-top: 12vw;
+    }
+    
+    .rectangle-heading-three, .rectangle-heading-four{
+        margin-top: 3vw;
+        margin-left: 3vw;
+    }
+
+    .rectangle-heading-four{
+        font-size: 4vw;
+    }
+
+    .rectangle-three{
+        padding: 2vw;
+        font-size: 4vw;
+        margin-right: -2.8vw;
+        width: 54vh;
+        margin-top: 18vw;
+    }
+    
+    .rectangle-heading-five, .rectangle-heading-six{
+        margin-top: 3vw;
+        margin-left: 3vw;
+    }
+
+    .rectangle-heading-six{
+        font-size: 4vw;
+    }
+
+    .guidebook{
+        font-size: 7vw;
+    }
+    
+    .guidebook, .guidebooktwo{
+        margin-top: -6vh;
+        margin-left: 2vw;
+        padding-block-end: 2vh;
+        width: 95vw;
+    }
+    
+    .guidebooktwo-text{
+        margin-top: -18vh;
+        font-size: 4vw;
+        margin-left: 3vw;
+    }
+    
+    .guidebooktwo-button{
+        margin-top: 4vh;
+        margin-left: -1vw;
+        margin-block-end: 2vh;
+    }
+
+    .button20 {
+        max-width: 28vw;
+        position: relative;
+        font-family: 'NeutralFace';
+        font-size: 2.5vw;
+        color: white;
+        background-image: linear-gradient(to right, #48E2DC, #000000, #48E2DC); 
+        padding: 1px;
+        transition: 3s;
+        margin-left: 3vw;
+        margin-top: -5vh;
+    }
+    
+    .underbutton20 {
+        background: black;
+        color: white;
+        text-align: center;
+        max-width: 26vw;
+        padding: 1vh 2vw;
+    }
+
+    .guidebooktwo-button{
+        margin-top: 7vh;
+        margin-left: -1vw;
+        margin-block-end: 2vh;
+    }
+
+    .allbooks-main{
+        height: 50vh;
+        margin-top: 70vh;
+        margin-left: -100vw;
+    }
+
+    .littlegraient{
+        margin-left: -3vw;
+        margin-top: 0.5vh;
+        width: 290vw;
+    }
+
+    .gradienttext{
+        font-size: 5vw;
+        /* text-align: center; */
+        margin-left: 18vw;
+        margin-top: -25vh;
+        width: 75vw;
+    }
+
+    .dna-podval{
+        margin-top: 23vh;
+        margin-block-end: 5vh;
+        width: 150vw;
+    }
+
+    .rass{
+        margin-top: -25vh;
+        padding: 2vw;
+        font-size: 3.5vw;
+    }
+}

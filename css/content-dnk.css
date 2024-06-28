@@ -1,0 +1,446 @@
+body {
+    width: 110vw;
+    overflow-x: hidden;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    background: #000000;
+}
+
+h1{
+    font-family: 'NeutralFaceBold';
+    color: white;
+}
+
+h2{
+    font-family: "ProximaNovaRegular";
+    color: white;
+    opacity: 50%;
+    font-size: 1.8vw;
+}
+
+h3{
+    font-family: 'NeutralFace';
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:active{
+    text-decoration: none;
+}
+
+
+/*CHANCE*/
+.chance{
+    margin-top: 5vh;
+}
+
+.chance-line{
+    height: 0.15vh;
+}
+
+.dna-heading{
+    font-size: 3vw;
+    padding-block-end: 3vh;
+}
+
+.dna-photo{
+    margin-top: 4vh;
+}
+
+.your-chance-description{
+    margin-top: 1vh;
+    padding-left: 2vw;
+    width: 93vh;
+    height: 40vh;
+}
+
+.dna-photo-1{
+    padding: 1vw;
+    margin-top: 2vh;
+    height: 53vh;
+}
+
+.dna-photo-2{
+    margin-left: 50vw;
+    margin-top: -100vh;
+}
+
+.dna-photo-3{
+    margin-left: 66.5vw;
+    margin-top: -47vh;
+}
+
+.our-history {
+    width: 29.3vw;
+    height: 25.3vh;
+    /* padding: 15vh 8vw; */
+    position: relative;
+    font-family: 'NeutralFace';
+    font-size: 1.3vw;
+    color: white;
+    background-image: linear-gradient(to right, #48E2DC, #000000, #48E2DC); 
+    padding: 3px;
+    margin-left: 35vw;
+    margin-top: -54vh;
+}
+
+.first-link{
+    max-width: 29vw;
+    max-height: 29vh;
+    padding-top: 3vh;
+    padding-left: 1vw;
+    padding-block-end: 8vh;
+    background: black;
+}
+
+.history {
+    /* background: black; */
+    color: white;
+    /* max-width: 29vw; */
+    font-size: 1.7vw;
+    margin-block-end: 3vh;
+    /* padding-top: 3vh;
+    padding-left: 1vw;
+    padding-block-end: 15vh; */
+}
+
+.tell{
+    width: 28vw;
+    margin-left: 0.1vw;
+    margin-block-end: 4vh;
+    /* margin-top: -10vh; */
+}
+
+.dna-button-1, .dna-button-2 {
+    max-width: 13vw;
+    padding: 1.5vh 5vw;
+    position: relative;
+    font-family: 'NeutralFace';
+    font-size: 1.3vw;
+    color: white;
+    background-image: linear-gradient(to right, #48E2DC, #000000, #48E2DC); 
+    padding: 3px;
+    transition: 3s;
+    margin-left: 1vw;
+    margin-top: -8vh;
+}
+
+.dna-button-1:hover{
+    background-image: linear-gradient(to right, #000000, #48E2DC, #000000); 
+    transition: 3s;
+}
+
+.dna-button-2:hover{
+    background-image: linear-gradient(to right, #000000, #48E2DC, #000000); 
+    transition: 3s;
+}
+
+.lookaf {
+    background: black;
+    color: white;
+    text-align: center;
+    max-width: 13vw;
+    padding: 1vh 2vw;
+}
+
+.our-crew {
+    width: 29.3vw;
+    height: 25.3vh;
+    /* padding: 15vh 8vw; */
+    position: relative;
+    font-family: 'NeutralFace';
+    font-size: 1.3vw;
+    color: white;
+    background-image: linear-gradient(to right, #48E2DC, #000000, #48E2DC); 
+    padding: 3px;
+    margin-left: 35vw;
+    margin-top: 1vh;
+}
+
+.second-link{
+    max-width: 29vw;
+    max-height: 29vh;
+    padding-top: 3vh;
+    padding-left: 1vw;
+    padding-block-end: 8vh;
+    background: black;
+}
+
+.vacancy {
+    /* background: black; */
+    color: white;
+    /* max-width: 29vw; */
+    font-size: 1.7vw;
+    margin-block-end: 3vh;
+    /* padding-top: 3vh;
+    padding-left: 1vw;
+    padding-block-end: 15vh; */
+}
+
+.become{
+    width: 28vw;
+    margin-left: 0.1vw;
+    margin-block-end: 4vh;
+    /* margin-top: -10vh; */
+}
+
+
+/*BOOKS*/
+.excursion-book{
+    height: 181vh;
+}
+
+.rectangles{
+    display: flex;
+    flex-direction: row;
+    margin-top: -4vh;
+}
+
+.rectangle-one{
+    padding: 2vw;
+    font-size: 1.7vw;
+    margin-right: -2.8vw;
+    height: 5.25vh;
+}
+
+.rectangle-heading-one{
+    margin-top: -1vw;
+}
+
+.rectangle-heading-two{
+    margin-top: 2vh;
+}
+
+.rectangle-two{
+    padding: 2vw;
+    font-size: 1.7vw;
+    margin-right: -2vw;
+    height: 5.25vh;
+}
+
+.rectangle-heading-three{
+    margin-top: -1vw;
+}
+
+.rectangle-heading-four{
+    margin-top: 2vh;
+}
+
+.rectangle-three{
+    padding: 2vw;
+    font-size: 1.7vw;
+    height: 5.25vh;
+}
+
+.rectangle-heading-five, .rectangle-heading-six{
+    margin-top: 1vw;
+}
+
+.guidebook{
+    font-size: 3vw;
+}
+
+.guidebook, .guidebooktwo{
+    padding-top: 2vh;
+    padding-block-end: 2vh;
+    height: 27vh;
+}
+
+.guidebooktwo-text{
+    margin-top: -14vh;
+}
+
+.guidebooktwo-button{
+    margin-top: 4vh;
+    margin-left: -1vw;
+    margin-block-end: 2vh;
+}
+
+.button20 {
+    max-width: 13vw;
+    padding: 1.5vh 5vw;
+    position: relative;
+    font-family: 'NeutralFace';
+    font-size: 1.3vw;
+    color: white;
+    /* background-color: black; */
+    background-image: linear-gradient(to right, #48E2DC, #000000, #48E2DC); 
+    padding: 3px;
+    transition: 3s;
+    margin-left: 1vw;
+}
+
+.button20:hover{
+    background-image: linear-gradient(to right, #000000, #48E2DC, #000000); 
+    transition: 3s;
+}
+
+.underbutton20 {
+    background: black;
+    color: white;
+    text-align: center;
+    max-width: 13vw;
+    padding: 1vh 2vw;
+}
+
+.allbooks{
+    display: flex;
+    flex-direction: row;
+    margin-left: 2vw;
+    margin-top: 32vh;
+}
+
+.allbooks-main{
+    height: 94.5vh;
+}
+
+.books{
+    padding-right: 7.5vw;
+}
+
+.littlegraient{
+    margin-top: 5vh;
+    height: 37vh;
+}
+
+.gradienttext{
+    font-size: 3vw;
+    text-align: center;
+    margin-left: -12vw;
+    margin-top: -25vh;
+}
+
+
+/*THEEND*/
+.dna-theend{
+    margin-top: 14vh;
+    margin-block-end: 5vh;
+}
+
+.rass{
+    margin-top: -35vh;
+    padding: 2vw;
+    font-size: 3.5vw;
+}
+
+.rassone{
+    padding-block-end: 5vh;
+}
+
+/* .button8 {
+    max-width: 13vw;
+    padding: 1.5vh 5vw;
+    position: relative;
+    font-family: 'NeutralFace';
+    font-size: 1.3vw;
+    color: white;
+    background-color: black;
+    background-image: linear-gradient(to right, #48E2DC, #000000, #48E2DC); 
+    padding: 3px;
+    transition: 3s;
+    margin-left: 23vw;
+    margin-top: -19.5vh;
+}
+
+.button8:hover{
+    background-image: linear-gradient(to right, #000000, #48E2DC, #000000); 
+    transition: 3s;
+} */
+
+.button9 {
+    max-width: 47vw;
+    padding: 3vh 10vw;
+    position: relative;
+    font-family: 'NeutralFace';
+    font-size: 1.3vw;
+    color: white;
+    /* background-color: black; */
+    background-image: linear-gradient(to right, #48E2DC, #000000, #48E2DC); 
+    padding: 3px;
+    transition: 3s;
+    margin-left: 40vw;
+    margin-top: -25vh;
+}
+
+.button9:hover{
+    background-image: linear-gradient(to right, #000000, #48E2DC, #000000); 
+    transition: 3s;
+}
+
+.connectone {
+    background: black;
+    color: white;
+    text-align: center;
+    max-width: 47vw;
+    padding: 3vh 10vw;
+    font-family: 'NeutralFace';
+    color: white;
+    font-size: 1.3vw;
+}
+
+.button10 {
+    max-width: 17vw;
+    padding: 3vh 7vw;
+    position: relative;
+    font-family: 'NeutralFace';
+    font-size: 1.3vw;
+    color: white;
+    /* background-color: black; */
+    background-image: linear-gradient(to right, #48E2DC, #000000, #48E2DC); 
+    padding: 3px;
+    transition: 3s;
+    margin-left: 80.5vw;
+    margin-top: -9vh;
+}
+
+.button10:hover{
+    background-image: linear-gradient(to right, #000000, #48E2DC, #000000); 
+    transition: 3s;
+}
+
+.connecttwo {
+    background: black;
+    color: white;
+    text-align: center;
+    max-width: 17vw;
+    padding: 3vh 4vw;
+}
+
+.contact-form{
+    margin-right: 25vw;
+    margin-top: -25vh;
+}
+
+.data{
+    display: flex;
+    justify-content: space-between;
+    width: 78vw;
+    margin-top: 5vh;
+
+}
+
+.contacts{
+    font-size: 3vw;
+    margin-left: 40vw;
+}
+
+.contacts-opacity, .information-opacity, .ysluga-opacity{
+    opacity: 100%;
+    padding-block-end: 2vw;
+}
+
+.theend{
+    height: 35vh;
+}
+
+.hover-opacity{
+    opacity: 50%;
+}
+
+.hover-opacity:hover{
+    opacity: 100%;
+}

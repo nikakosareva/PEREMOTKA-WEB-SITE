@@ -1,0 +1,305 @@
+body {
+    width: 110vw;
+    overflow-x: hidden;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    background: #000000;
+}
+
+h1{
+    font-family: 'NeutralFaceBold';
+    color: white;
+}
+
+h2{
+    font-family: "ProximaNovaRegular";
+    color: white;
+    opacity: 50%;
+    font-size: 1.8vw;
+}
+
+h3{
+    font-family: 'NeutralFace';
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:active{
+    text-decoration: none;
+}
+
+/*SHAPKA*/
+
+.logo{
+    margin: 1.5%;
+}
+
+.chapter{
+    margin-left: 67.5vw;
+    margin-top: -3vw;
+    display: flex;
+    flex-direction: row;
+    width: 30vw;
+    justify-content: space-between;
+}
+
+
+/*POSTERS*/
+.thisweek{
+    font-size: 3vw;
+    padding-block-end: 3vh;
+}
+
+.posters{
+    margin-top: 2vh;
+    padding: 2vw;
+}
+
+.thiscorzina{
+    font-size: 3vw;
+    margin-block-end: 3vh;
+}
+
+.corzina {
+    font-size: 3vw;
+    padding: 1.5vw;
+    margin-block-end: 3vh;
+    margin-top: -46vh;
+}
+
+.corzina-two, .corzina-three{
+    margin-block-end: 3vh;
+    margin-left: 1.6vw;
+}
+
+.button-corzina {
+    max-width: 15vw;
+    padding: 2vh 7vw;
+    position: relative;
+    font-family: 'NeutralFace';
+    font-size: 1.3vw;
+    color: white;
+    background-image: linear-gradient(to right, #48E2DC, #000000, #48E2DC); 
+    padding: 3px;
+    transition: 3s;
+    margin-left: 30.5vw;
+    margin-top: 10vh;
+}
+
+.button-corzina:hover{
+    background-image: linear-gradient(to right, #000000, #48E2DC, #000000); 
+    transition: 3s;
+}
+
+.corzina-button {
+    background: black;
+    color: white;
+    text-align: center;
+    max-width: 15vw;
+    padding: 2vh 2vw;
+}
+
+.events-posterme{
+    margin-left: 99vh;
+    margin-top: -48vh;
+    width: 47vw;
+    opacity: 0;
+    transform: translateX(-20px);
+}
+
+.events-posterme.element-show-ten{
+    margin-left: 99vh;
+    margin-top: -48vh;
+    width: 47vw;
+    opacity: 1;
+    transition: all 1.5s;
+    transform: translateX(0%);
+}
+
+.events-textme{
+    margin-left: -1vh;
+    margin-top: -44vh;
+    width: 47vw;
+}
+
+.events-firstme{
+    font-size: 2vw;
+    text-align: right;
+    margin-right: 32vh;
+}
+
+.events-secondme{
+    font-size: 1.8vw;
+    text-align: right;
+    margin-right: 32vh;
+    margin-block-end: 5vh;
+}
+
+.events-thirdme{
+    margin-left: 4vw;
+    margin-block-end: 5vh;
+}
+
+.button-me {
+    max-width: 15vw;
+    padding: 2vh 7vw;
+    position: relative;
+    font-family: 'NeutralFace';
+    font-size: 1.3vw;
+    color: white;
+    background-image: linear-gradient(to right, #48E2DC, #000000, #48E2DC); 
+    padding: 3px;
+    transition: 3s;
+    margin-left: 3.5vw;
+}
+
+.button-me:hover{
+    background-image: linear-gradient(to right, #000000, #48E2DC, #000000); 
+    transition: 3s;
+}
+
+.me-button {
+    background: black;
+    color: white;
+    text-align: center;
+    max-width: 15vw;
+    padding: 2vh 2vw;
+}
+
+.events-posterbutterfly{
+    margin-top: 10vh;
+    width: 47vw;
+    opacity: 0;
+    transform: translateX(-20px);
+}
+
+.events-posterbutterfly.element-show-eleven{
+    margin-top: 10vh;
+    width: 47vw;
+    opacity: 1;
+    transition: all 1.5s;
+    transform: translateX(0%);
+}
+
+.events-textbuttefly{
+    margin-left: -1vh;
+    margin-top: -44vh;
+    width: 47vw;
+}
+
+.events-firstbutterfly{
+    font-size: 2vw;
+    text-align: right;
+    margin-right: 32vh;
+}
+
+.events-secondbutterfly{
+    font-size: 1.8vw;
+    text-align: right;
+    margin-right: 32vh;
+    margin-block-end: 5vh;
+}
+
+.events-thirdbutterfly{
+    margin-left: 1vw;
+    margin-block-end: 5vh;
+}
+
+.button-butterfly {
+    max-width: 15vw;
+    padding: 2vh 7vw;
+    position: relative;
+    font-family: 'NeutralFace';
+    font-size: 1.3vw;
+    color: white;
+    background-image: linear-gradient(to right, #48E2DC, #000000, #48E2DC); 
+    padding: 3px;
+    transition: 3s;
+    margin-left: 1vw;
+}
+
+.button-butterfly:hover{
+    background-image: linear-gradient(to right, #000000, #48E2DC, #000000); 
+    transition: 3s;
+}
+
+.butterfly-button {
+    background: black;
+    color: white;
+    text-align: center;
+    max-width: 15vw;
+    padding: 2vh 2vw;
+}
+
+
+.events-prostor{
+    margin-top: -52.5vh;
+    margin-left: 48.7vw;
+    width: 47vw;
+    opacity: 0;
+    transform: translateX(-20px);
+}
+
+.events-prostor.element-show-twelve{
+    margin-top: -52.5vh;
+    margin-left: 48.7vw;
+    width: 47vw;
+    opacity: 1;
+    transition: all 1.5s;
+    transform: translateX(0%);
+}
+
+
+.events-textprostor{
+    margin-left: -1vh;
+    margin-top: -44vh;
+    width: 47vw;
+}
+
+.events-firstprostor{
+    font-size: 2vw;
+    text-align: right;
+    margin-right: 32vh;
+}
+
+.events-secondprostor{
+    font-size: 1.8vw;
+    text-align: right;
+    margin-right: 32vh;
+    margin-block-end: 5vh;
+}
+
+.events-thirdprostor{
+    margin-left: 1vw;
+    margin-block-end: 5vh;
+}
+
+.button-prostor {
+    max-width: 15vw;
+    padding: 2vh 7vw;
+    position: relative;
+    font-family: 'NeutralFace';
+    font-size: 1.3vw;
+    color: white;
+    background-image: linear-gradient(to right, #48E2DC, #000000, #48E2DC); 
+    padding: 3px;
+    transition: 3s;
+    margin-left: 1vw;
+}
+
+.button-prostor:hover{
+    background-image: linear-gradient(to right, #000000, #48E2DC, #000000); 
+    transition: 3s;
+}
+
+.prostor-button {
+    background: black;
+    color: white;
+    text-align: center;
+    max-width: 15vw;
+    padding: 2vh 2vw;
+}

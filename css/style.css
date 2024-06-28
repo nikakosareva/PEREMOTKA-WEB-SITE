@@ -1,0 +1,13 @@
+@import "reset.css"; /*сброс настроек браузера*/
+@import "content.css"; /*контент и содержимое*/
+@import "content-cabinet.css"; /*контент и содержимое*/
+@import "content-dnk.css"; /*контент и содержимое*/
+@import "content-events.css"; /*контент и содержимое*/
+@import "content-case.css"; /*контент и содержимое*/
+@import "content-shop.css"; /*контент и содержимое*/
+@import "content-404.css"; /*контент и содержимое*/
+@import "responsive.css"; /*адаптивность*/
+@import "responsive-404.css"; /*адаптивность*/
+@import "responsive-cabinet.css"; /*адаптивность*/
+@import "responsive-dnk.css"; /*адаптивность*/
+@import "fonts.css";

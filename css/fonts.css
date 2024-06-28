@@ -1,0 +1,20 @@
+@font-face { 
+    font-family: 'NeutralFace';
+    src: url("../font/NeutralFace.otf") format("opentype") ;
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face { 
+    font-family: 'NeutralFaceBold';
+    src: url("../font/NeutralFaceBold.otf") format("opentype") ;
+    font-style: bold;
+    font-weight: 700;
+}
+
+@font-face { 
+    font-family: "ProximaNovaRegular";
+    src:  url("../font/ProximaNovaRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}

@@ -1,0 +1,41 @@
+.logo-404{
+    margin: 1.5%;
+}
+
+.one-404{
+    font-size: 11vw;
+}
+
+.text-404{
+    text-align: center;
+    margin-top: -75vh;
+    margin-left: -15vw;
+}
+
+.button-404 {
+    max-width: 13vw;
+    padding: 1.5vh 5vw;
+    position: relative;
+    font-family: 'NeutralFace';
+    font-size: 1.3vw;
+    color: white;
+    /* background-color: black; */
+    background-image: linear-gradient(to right, #48E2DC, #000000, #48E2DC); 
+    padding: 3px;
+    transition: 3s;
+    margin-left: 41vw;
+    margin-top: 4vh;
+}
+
+.button-404:hover{
+    background-image: linear-gradient(to right, #000000, #48E2DC, #000000); 
+    transition: 3s;
+}
+
+.look-404 {
+    background: black;
+    color: white;
+    text-align: center;
+    max-width: 13vw;
+    padding: 1vh 2vw;
+}

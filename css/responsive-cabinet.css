@@ -1,0 +1,137 @@
+/* телефон / 430 / 360 */
+@media only screen and (min-device-width: 360px) and (max-device-width: 430px){
+    .logo{
+        margin-top: 2vh;
+        margin-left: 3vw;
+        padding: 2vw;
+    }
+
+    .chapter{
+        opacity: 0;
+    }
+
+    /* profile */
+    .background{
+        margin-left: -3vw;
+    }
+
+    .woman{
+        padding: 2vw;
+        margin-top: -21vh;
+        width: 130vw;
+    }
+
+    .lebedeva{
+        margin-top: 1vh;
+        margin-left: 5vw;
+        height: 25vh;
+    }
+
+    .nadezhda{
+        font-size: 7vw;
+        margin-block-end: 8vh;
+    }
+
+    .nadleb{
+        font-size: 4vw;
+        margin-top: -5vh;
+    }
+
+    .notification {
+        max-width: 92vw;
+        position: relative;
+        font-family: 'NeutralFace';
+        color: white;
+        /* background-color: black; */
+        background-image: linear-gradient(to right, #48E2DC, #000000, #48E2DC); 
+        padding: 0.5px;
+        transition: 3s;
+        margin-left: 3vw;
+        margin-top: -2vh;
+    }
+
+    .place {
+        background: black;
+        color: white;
+        text-align: center;
+        max-width: 90vw;
+        padding: 3vh 3vw;
+        font-size: 3.5vw;
+        /* margin-left: -6vw; */
+    }
+    
+    .visit{
+        width: 90vw;
+        margin-left: -2vw;
+        font-family: 4vw;
+    }
+
+    .line-of-life{
+        padding: 2vw;
+        height: 34vh;
+        width: 93vw;
+        margin-top: 17vw;
+        margin-left: -0.5vw;
+    }
+    
+    .heading-one{
+        font-size: 2vw;
+        margin-left: 3vw;
+        margin-top: -23vh;
+    }
+
+    .pathology{
+        padding: 2vw;
+        height: 57vh;
+        font-family: 4vw;
+        width: 92vw;
+        margin-top: -6.5vh;
+        margin-left: -0.5vw;
+    }
+    
+    .heading-two{
+        font-size: 3vw;
+        margin-left: 4vw;
+        margin-top: -46vh;
+    }
+
+    .library{
+        padding: 2vw;
+        height: 28.5vh;
+        width: 92vw;
+        margin-top: -11.3vh;
+        margin-left: -0.5vw;
+    }
+    
+    .heading-three{
+        font-size: 3vw;
+        margin-left: 4vw;
+        margin-top: -23vh;
+    }
+
+    .integrity{
+        padding: 2vw;
+        margin-left: 48.5vw;
+        height: 26vh;
+        width: 92vw;
+        margin-top: -11.3vh;
+        margin-left: -0.5vw;
+    }
+    
+    .heading-four{
+        font-size: 3vw;
+        margin-left: 4vw;
+        margin-top: -21vh;
+    }
+    
+    .heading-five{
+        font-size: 7vw;
+        margin-left: 4vw;
+        margin-top: 4vh;
+    }
+
+    .signup{
+        /* margin-block-end: 5vh; */
+        width: 100vw;
+    }
+}

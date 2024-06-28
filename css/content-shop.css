@@ -1,0 +1,643 @@
+body {
+    width: 110vw;
+    overflow-x: hidden;
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    background: #000000;
+}
+
+h1{
+    font-family: 'NeutralFaceBold';
+    color: white;
+}
+
+h2{
+    font-family: "ProximaNovaRegular";
+    color: white;
+    opacity: 50%;
+    font-size: 1.8vw;
+}
+
+h3{
+    font-family: 'NeutralFace';
+    color: white;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:active{
+    text-decoration: none;
+}
+
+
+/*MAINSHOP*/
+.mainshop{
+    margin-top: -94vh;
+    margin-block-end: 4vh;
+}
+
+.shop-cas{
+    margin: 2vw ;
+}
+
+.shopfirst{
+    position: absolute;
+    height: 10vw;
+    width: 32vw;
+    margin-top: -20.8vh;
+    background: linear-gradient(180deg, rgba(219, 6, 45, 0) 0%, #48E2DC 100%);
+    transition: opacity 0.7s ease 0s;
+    opacity: 0;
+}
+
+.shopfirst:hover{
+    opacity: 1;
+}
+
+.cas-text{
+    font-size: 1.7vw;
+    margin-top: 5vh;
+    margin-left: 2vw;
+}
+
+.button-cas {
+    max-width: 15vw;
+    padding: 2vh 7vw;
+    position: relative;
+    font-family: 'NeutralFace';
+    font-size: 1.3vw;
+    color: white;
+    background-image: linear-gradient(to right, #48E2DC, #000000, #48E2DC); 
+    padding: 3px;
+    transition: 3s;
+    margin-left: 15vw;
+    margin-top: -2vh;
+}
+
+.button-cas:hover{
+    background-image: linear-gradient(to right, #000000, #48E2DC, #000000); 
+    transition: 3s;
+}
+
+.cas-button {
+    background: black;
+    color: white;
+    text-align: center;
+    max-width: 15vw;
+    padding: 2vh 2vw;
+}
+
+/*  */
+.shop-pens{
+    margin: 2vw ;
+    margin-left: 35vw;
+    margin-top: -69.5vh;
+}
+
+.shopsecond{
+    position: absolute;
+    height: 10vw;
+    width: 45.2vw;
+    margin-top: -20.8vh;
+    background: linear-gradient(180deg, rgba(219, 6, 45, 0) 0%, #48E2DC 100%);
+    transition: opacity 0.7s ease 0s;
+    opacity: 0;
+}
+
+.shopsecond:hover{
+    opacity: 1;
+}
+
+.pens-text{
+    font-size: 1.7vw;
+    margin-top: 10vh;
+    margin-left: 2vw;
+}
+
+.button-pens {
+    max-width: 15vw;
+    padding: 2vh 7vw;
+    position: relative;
+    font-family: 'NeutralFace';
+    font-size: 1.3vw;
+    color: white;
+    background-image: linear-gradient(to right, #48E2DC, #000000, #48E2DC); 
+    padding: 3px;
+    transition: 3s;
+    margin-left: 28vw;
+    margin-top: -8vh;
+}
+
+.button-pens:hover{
+    background-image: linear-gradient(to right, #000000, #48E2DC, #000000); 
+    transition: 3s;
+}
+
+.pens-button {
+    background: black;
+    color: white;
+    text-align: center;
+    max-width: 15vw;
+    padding: 2vh 2vw;
+}
+
+/*  */
+.shop-bag{
+    margin: 2vw ;
+    margin-left: 81.5vw;
+    margin-top: -31vh;
+}
+
+.shopthird{
+    position: absolute;
+    height: 10vw;
+    width: 16vw;
+    margin-top: -20.8vh;
+    background: linear-gradient(180deg, rgba(219, 6, 45, 0) 0%, #48E2DC 100%);
+    transition: opacity 0.7s ease 0s;
+    opacity: 0;
+}
+
+.shopthird:hover{
+    opacity: 1;
+}
+
+.bag-text{
+    font-size: 1.7vw;
+    margin-top: 1vh;
+    margin-left: 2vw;
+}
+
+.button-bag {
+    max-width: 12vw;
+    padding: 2vh 7vw;
+    position: relative;
+    font-family: 'NeutralFace';
+    font-size: 1.3vw;
+    color: white;
+    background-image: linear-gradient(to right, #48E2DC, #000000, #48E2DC); 
+    padding: 3px;
+    transition: 3s;
+    margin-left: 2vw;
+    margin-top: 2vh;
+}
+
+.button-bag:hover{
+    background-image: linear-gradient(to right, #000000, #48E2DC, #000000); 
+    transition: 3s;
+}
+
+.bag-button {
+    background: black;
+    color: white;
+    text-align: center;
+    max-width: 12vw;
+    padding: 2vh 1vw;
+}
+
+/*  */
+.shop-hat{
+    margin: 2vw ;
+    margin-left: 35vw;
+    margin-top: -16.8vh;
+}
+
+.shopfour{
+    position: absolute;
+    height: 10vw;
+    width: 14vw;
+    margin-top: -20.8vh;
+    background: linear-gradient(180deg, rgba(219, 6, 45, 0) 0%, #48E2DC 100%);
+    transition: opacity 0.7s ease 0s;
+    opacity: 0;
+}
+
+.shopfour:hover{
+    opacity: 1;
+}
+
+.hat-text{
+    font-size: 1.7vw;
+    margin-top: 1vh;
+    margin-left: 2vw;
+}
+
+.button-hat {
+    max-width: 10vw;
+    padding: 2vh 7vw;
+    position: relative;
+    font-family: 'NeutralFace';
+    font-size: 1.3vw;
+    color: white;
+    background-image: linear-gradient(to right, #48E2DC, #000000, #48E2DC); 
+    padding: 3px;
+    transition: 3s;
+    margin-left: 2vw;
+    margin-top: 2vh;
+}
+
+.button-hat:hover{
+    background-image: linear-gradient(to right, #000000, #48E2DC, #000000); 
+    transition: 3s;
+}
+
+.hat-button {
+    background: black;
+    color: white;
+    text-align: center;
+    max-width: 10vw;
+    padding: 2vh 0.3vw;
+}
+
+/*  */
+.shop-metronom{
+    margin: 2vw ;
+    margin-left: 81.5vw;
+    margin-top: -26vh;
+}
+
+.shopfive{
+    position: absolute;
+    height: 10vw;
+    width: 16vw;
+    margin-top: -20.8vh;
+    background: linear-gradient(180deg, rgba(219, 6, 45, 0) 0%, #48E2DC 100%);
+    transition: opacity 0.7s ease 0s;
+    opacity: 0;
+}
+
+.shopfive:hover{
+    opacity: 1;
+}
+
+.metronom-text{
+    font-size: 1.7vw;
+    margin-top: 1vh;
+    margin-left: 2vw;
+}
+
+.button-metronom {
+    max-width: 12vw;
+    padding: 2vh 7vw;
+    position: relative;
+    font-family: 'NeutralFace';
+    font-size: 1.3vw;
+    color: white;
+    background-image: linear-gradient(to right, #48E2DC, #000000, #48E2DC); 
+    padding: 3px;
+    transition: 3s;
+    margin-left: 2vw;
+    margin-top: 2vh;
+}
+
+.button-metronom:hover{
+    background-image: linear-gradient(to right, #000000, #48E2DC, #000000); 
+    transition: 3s;
+}
+
+.metronom-button {
+    background: black;
+    color: white;
+    text-align: center;
+    max-width: 12vw;
+    padding: 2vh 1vw;
+}
+
+/*  */
+.shop-disk{
+    margin: 2vw ;
+    margin-left: 2vw;
+    margin-top: -31vh;
+}
+
+.shopsix{
+    position: absolute;
+    height: 10vw;
+    width: 47.2vw;
+    margin-top: -20.8vh;
+    background: linear-gradient(180deg, rgba(219, 6, 45, 0) 0%, #48E2DC 100%);
+    transition: opacity 0.7s ease 0s;
+    opacity: 0;
+}
+
+.shopsix:hover{
+    opacity: 1;
+}
+
+.disk-text{
+    font-size: 1.7vw;
+    margin-top: 10vh;
+    margin-left: 2vw;
+}
+
+.button-disk {
+    max-width: 15vw;
+    padding: 2vh 7vw;
+    position: relative;
+    font-family: 'NeutralFace';
+    font-size: 1.3vw;
+    color: white;
+    background-image: linear-gradient(to right, #48E2DC, #000000, #48E2DC); 
+    padding: 3px;
+    transition: 3s;
+    margin-left: 30vw;
+    margin-top: -8vh;
+}
+
+.button-disk:hover{
+    background-image: linear-gradient(to right, #000000, #48E2DC, #000000); 
+    transition: 3s;
+}
+
+.disk-button {
+    background: black;
+    color: white;
+    text-align: center;
+    max-width: 15vw;
+    padding: 2vh 2vw;
+}
+
+
+/*  */
+.shop-card{
+    margin-left: 2vw ;
+    margin-top: -2vh;
+}
+
+.shopseven{
+    position: absolute;
+    height: 10vw;
+    width: 21.5vw;
+    margin-top: -20.8vh;
+    background: linear-gradient(180deg, rgba(219, 6, 45, 0) 0%, #48E2DC 100%);
+    transition: opacity 0.7s ease 0s;
+    opacity: 0;
+}
+
+.shopseven:hover{
+    opacity: 1;
+}
+
+.card-text{
+    font-size: 1.7vw;
+    margin-top: 1vh;
+    margin-left: 2vw;
+}
+
+.button-card {
+    max-width: 15vw;
+    padding: 2vh 7vw;
+    position: relative;
+    font-family: 'NeutralFace';
+    font-size: 1.3vw;
+    color: white;
+    background-image: linear-gradient(to right, #48E2DC, #000000, #48E2DC); 
+    padding: 3px;
+    transition: 3s;
+    margin-left: 4.5vw;
+    margin-top: 2vh;
+}
+
+.button-card:hover{
+    background-image: linear-gradient(to right, #000000, #48E2DC, #000000); 
+    transition: 3s;
+}
+
+.card-button {
+    background: black;
+    color: white;
+    text-align: center;
+    max-width: 15vw;
+    padding: 2vh 2vw;
+}
+
+/*  */
+.shop-notebook{
+    margin: 2vw ;
+    margin-left: 25vw;
+    margin-top: -33vh;
+}
+
+.shopeight{
+    position: absolute;
+    height: 10vw;
+    width: 39.5vw;
+    margin-top: -20.8vh;
+    background: linear-gradient(180deg, rgba(219, 6, 45, 0) 0%, #48E2DC 100%);
+    transition: opacity 0.7s ease 0s;
+    opacity: 0;
+}
+
+.shopeight:hover{
+    opacity: 1;
+}
+
+.notebook-text{
+    font-size: 1.7vw;
+    margin-top: 5vh;
+    margin-left: 2vw;
+}
+
+.button-notebook {
+    max-width: 15vw;
+    padding: 2vh 7vw;
+    position: relative;
+    font-family: 'NeutralFace';
+    font-size: 1.3vw;
+    color: white;
+    background-image: linear-gradient(to right, #48E2DC, #000000, #48E2DC); 
+    padding: 3px;
+    transition: 3s;
+    margin-left: 22.5vw;
+    margin-top: -2vh;
+}
+
+.button-notebook:hover{
+    background-image: linear-gradient(to right, #000000, #48E2DC, #000000); 
+    transition: 3s;
+}
+
+.notebook-button {
+    background: black;
+    color: white;
+    text-align: center;
+    max-width: 15vw;
+    padding: 2vh 2vw;
+}
+
+/*  */
+.shop-box{
+    margin: 2vw ;
+    margin-left: 2vw;
+    margin-top: -2vh;
+}
+
+.shopnine{
+    position: absolute;
+    height: 10vw;
+    width: 39.5vw;
+    margin-top: -20.8vh;
+    background: linear-gradient(180deg, rgba(219, 6, 45, 0) 0%, #48E2DC 100%);
+    transition: opacity 0.7s ease 0s;
+    opacity: 0;
+}
+
+.shopnine:hover{
+    opacity: 1;
+}
+
+.box-text{
+    font-size: 1.7vw;
+    margin-top: 5vh;
+    margin-left: 2vw;
+}
+
+.button-box {
+    max-width: 15vw;
+    padding: 2vh 7vw;
+    position: relative;
+    font-family: 'NeutralFace';
+    font-size: 1.3vw;
+    color: white;
+    background-image: linear-gradient(to right, #48E2DC, #000000, #48E2DC); 
+    padding: 3px;
+    transition: 3s;
+    margin-left: 22.5vw;
+    margin-top: -2vh;
+}
+
+.button-box:hover{
+    background-image: linear-gradient(to right, #000000, #48E2DC, #000000); 
+    transition: 3s;
+}
+
+.box-button {
+    background: black;
+    color: white;
+    text-align: center;
+    max-width: 15vw;
+    padding: 2vh 2vw;
+}
+
+/*  */
+.shop-thing{
+    margin-left: 42.3vw ;
+    margin-top: -34.3vh;
+}
+
+.shopten{
+    position: absolute;
+    height: 10vw;
+    width: 22vw;
+    margin-top: -20.8vh;
+    background: linear-gradient(180deg, rgba(219, 6, 45, 0) 0%, #48E2DC 100%);
+    transition: opacity 0.7s ease 0s;
+    opacity: 0;
+}
+
+.shopten:hover{
+    opacity: 1;
+}
+
+.thing-text{
+    font-size: 1.7vw;
+    margin-top: -3vh;
+    margin-left: 2vw;
+}
+
+.button-thing {
+    max-width: 15vw;
+    padding: 2vh 7vw;
+    position: relative;
+    font-family: 'NeutralFace';
+    font-size: 1.3vw;
+    color: white;
+    background-image: linear-gradient(to right, #48E2DC, #000000, #48E2DC); 
+    padding: 3px;
+    transition: 3s;
+    margin-left: 4.5vw;
+    margin-top: 2vh;
+}
+
+.button-thing:hover{
+    background-image: linear-gradient(to right, #000000, #48E2DC, #000000); 
+    transition: 3s;
+}
+
+.thing-button {
+    background: black;
+    color: white;
+    text-align: center;
+    max-width: 15vw;
+    padding: 2vh 2vw;
+}
+
+/*  */
+.shop-sticker{
+    /* margin: 2vw ; */
+    margin-left: 65.5vw;
+    margin-top: -65vh;
+}
+
+.shopeleven{
+    position: absolute;
+    height: 10vw;
+    width: 32vw;
+    margin-top: -20.8vh;
+    background: linear-gradient(180deg, rgba(219, 6, 45, 0) 0%, #48E2DC 100%);
+    transition: opacity 0.7s ease 0s;
+    opacity: 0;
+}
+
+.shopeleven:hover{
+    opacity: 1;
+}
+
+.sticker-text{
+    font-size: 1.7vw;
+    margin-top: 5vh;
+    margin-left: 2vw;
+}
+
+.button-sticker {
+    max-width: 15vw;
+    padding: 2vh 7vw;
+    position: relative;
+    font-family: 'NeutralFace';
+    font-size: 1.3vw;
+    color: white;
+    background-image: linear-gradient(to right, #48E2DC, #000000, #48E2DC); 
+    padding: 3px;
+    transition: 3s;
+    margin-left: 15vw;
+    margin-top: -2vh;
+}
+
+.button-sticker:hover{
+    background-image: linear-gradient(to right, #000000, #48E2DC, #000000); 
+    transition: 3s;
+}
+
+.sticker-button {
+    background: black;
+    color: white;
+    text-align: center;
+    max-width: 15vw;
+    padding: 2vh 2vw;
+}
+
+/*shop-corzina*/
+.shop-corzina{
+    margin-top: 35vh;
+    margin-left: 50.3vw;
+    height: 61vh;
+}
+
+.shop-corzina-heading{
+    padding: 1.5vw;
+    margin-top: -64vh;
+    font-size: 3vw;
+}

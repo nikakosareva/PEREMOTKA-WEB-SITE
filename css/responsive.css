@@ -1,0 +1,572 @@
+/* телефон / 430 / 360 */
+@media only screen and (min-device-width: 360px) and (max-device-width: 430px){
+    .logo{
+        margin-top: 2vh;
+        margin-left: 3vw;
+        padding: 2vw;
+    }
+
+    .chapter{
+        opacity: 0;
+    }
+
+    /*SECTION BACKGROUND*/
+    .background{
+        margin-left: -3vw;
+    }
+
+    .change{
+        font-size:7vw;
+        margin-top: -30vh;
+        margin-left: 6vw;
+    }
+    
+    .welcome{
+        font-size: 4vw;
+        margin-top: 4vh;
+    }
+    
+    /*SECTION HEART*/
+    .admin{
+        margin-left: 3vw;
+        /* margin-top: 6vh; */
+        width: 190vw;
+    }
+
+    .heart{
+        font-size:7vw;
+        margin-top: -7vh;
+        margin-left: 3vw;
+    }
+
+    .meet{
+        font-size: 4vw;
+        margin-top: 2vh;
+        margin-left: 3vw;
+    }
+
+    .button0 {
+        max-width: 92vw;
+        position: relative;
+        font-family: 'NeutralFace';
+        font-size: 3.5vw;
+        color: white;
+        /* background-color: black; */
+        background-image: linear-gradient(to right, #48E2DC, #000000, #48E2DC); 
+        padding: 1px;
+        transition: 3s;
+        margin-left: 3vw;
+        margin-top: 2vh;
+      }
+      
+    .place0 {
+        background: black;
+        color: white;
+        text-align: center;
+        padding: 2vh 9.7vw;
+    }
+
+    .button2 {
+        max-width: 92vw;
+        position: relative;
+        font-family: 'NeutralFace';
+        font-size: 3.5vw;
+        color: white;
+        background-image: linear-gradient(to right, #48E2DC, #000000, #48E2DC); 
+        padding: 1px;
+        transition: 3s;
+        margin-left: 3vw;
+        margin-top: 2vh;
+    }
+    
+    .book {
+        background: black;
+        color: white;
+        text-align: center;
+        padding: 2vh 9.7vw;
+    }
+
+    /*AFISHA*/
+.afisha{
+    margin-top: 5vh;
+    margin-left: 3vw;
+    height: 83vh;
+}
+
+.af{
+    font-size: 7vw;
+}
+
+.button30 {
+    max-width: 28vw;
+    position: relative;
+    font-family: 'NeutralFace';
+    font-size: 2.5vw;
+    color: white;
+    background-image: linear-gradient(to right, #48E2DC, #000000, #48E2DC); 
+    padding: 1px;
+    transition: 3s;
+    margin-left: 32vw;
+    margin-top: -4vh;
+}
+
+.lookaf {
+    background: black;
+    color: white;
+    text-align: center;
+    max-width: 26vw;
+    padding: 1vh 2vw;
+}
+
+.eventsaf{
+    font-size: 4vw;
+    margin-top: 2vh;
+}
+
+.posterbutterfly{
+    margin-left: 3vw;
+    margin-top: 2vh;
+    height: 31vh;
+    /* opacity: 0;
+  transform: translateX(-20px); */
+}
+
+.posterbutterfly.element-show{
+    margin-left: 3vw;
+    margin-top: 2vh;
+    height: 31vh;
+    /* opacity: 1;
+    transition: all 1.5s;
+    transform: translateX(0%); */
+}
+
+.butterfly-img{
+    width: 90vw;
+}
+
+.textbuttefly{
+    margin-left: -15vw;
+    margin-top: -24vh;
+    width: 130vw;
+}
+
+.firstbutterfly{
+    font-size: 4vw;
+    text-align: right;
+    margin-right: 32vh;
+}
+
+.secondbutterfly{
+    font-size: 4vw;
+    text-align: right;
+    margin-right: 32vh;
+}
+
+.posterme{
+    margin-left: 3vw;
+    /* opacity: 0;
+    transform: translateX(-20px); */
+}
+
+.posterme.element-show-two{
+    margin-left: 3vw;
+    /* opacity: 1;
+    transition: all 1.5s;
+    transform: translateX(0%); */
+}
+
+.textme{
+    margin-left: -15vw;
+    margin-top: -24vh;
+    width: 130vw;
+}
+
+.firstme{
+    font-size: 4vw;
+    text-align: right;
+    margin-right: 32vh;
+}
+
+.secondme{
+    font-size: 4vw;
+    text-align: right;
+    margin-right: 32vh;
+}
+
+.me-img{
+    width: 90vw;
+}
+
+/*PREVIEW*/
+.preview-scheme{
+    margin-top: -7vh;
+    width: 210vw;
+}
+
+.preview-disk{
+    width: 60vw;
+}
+
+.disk{
+    margin-top: -59vh;
+    margin-left: 20vw;
+    width: 60vw;
+    animation: rotation 5s infinite linear;
+}
+
+.monitor{
+    margin-top: 13vh;
+    margin-left: 5vw;
+    width: 80vw;
+}
+
+.di{
+    font-size: 7vw;
+    margin-top: -59vh;
+    margin-left: 4vw;
+}
+
+.button4 {
+    max-width: 28vw;
+    position: relative;
+    font-family: 'NeutralFace';
+    font-size: 2.5vw;
+    color: white;
+    background-image: linear-gradient(to right, #48E2DC, #000000, #48E2DC); 
+    padding: 1px;
+    transition: 3s;
+    margin-left: -0.3vw;
+    margin-top: 0.5vh;
+}
+
+.lookdi {
+    background: black;
+    color: white;
+    text-align: center;
+    max-width: 26vw;
+}
+
+.eventsdi{
+    font-size: 3.5vw;
+    margin-top: 2vh;
+}
+
+.bf{
+    font-size: 7vw;
+    margin-top: 43vh;
+    margin-left: 4vw;
+}
+
+.button5 {
+    max-width: 28vw;
+    position: relative;
+    font-family: 'NeutralFace';
+    font-size: 2.5vw;
+    color: white;
+    background-image: linear-gradient(to right, #48E2DC, #000000, #48E2DC); 
+    padding: 1px;
+    transition: 3s;
+    margin-left: -0.3vw;
+    margin-top: 0.5vh;
+}
+
+.lookbf {
+    background: black;
+    color: white;
+    text-align: center;
+    max-width: 26vw;
+}
+
+.eventsbf{
+    font-size: 4vw;
+    margin-top: 2vh;
+}
+
+/*CASES*/
+.cases{
+    height: 75vh;
+}
+
+.line{
+    margin-left: 3vw;
+    margin-top: 10vh;
+}
+
+.cas{
+    font-size: 7vw;
+    margin-left: 3vw;
+    margin-top: -6vh;
+}
+
+.button30 {
+    max-width: 28vw;
+    position: relative;
+    font-family: 'NeutralFace';
+    font-size: 2.5vw;
+    color: white;
+    background-image: linear-gradient(to right, #48E2DC, #000000, #48E2DC); 
+    padding: 1px;
+    transition: 3s;
+    margin-left: 30vw;
+    margin-top: -4.5vh;
+}
+
+.lookcas {
+    background: black;
+    color: white;
+    text-align: center;
+    max-width: 26vw;
+    padding: 1vh 2vw;
+}
+
+.eventscas{
+    font-size: 4vw;
+    margin-top: 4vh;
+}
+
+.girl{
+    margin-left: 2vw;
+    margin-top: 1vh;
+    width: 90vw;
+}
+
+.girl{
+    margin-left: 2vw;
+    margin-top: 1vh;
+    width: 90vw;
+}
+
+.textgirl{
+    margin-left: 30vw;
+    margin-top: -15vh;
+    width: 120vw;
+}
+
+.firstgirl{
+    font-size: 4vw;
+    margin-right: 32vh;
+}
+
+.secondgirl{
+    font-size: 4vw;
+    margin-right: 32vh;
+}
+
+.man{
+    margin-left: 2vw;
+    margin-top: 5vh;
+    width: 90vw;
+}
+
+.textman{
+    margin-left: 30vw;
+    margin-top: -15vh;
+    width: 120vw;
+}
+
+.firstman{
+    font-size: 4vw;
+    margin-right: 32vh;
+}
+
+.secondman{
+    font-size: 4vw;
+    margin-right: 32vh;
+}
+
+.boy{
+    margin-left: 2vw;
+    margin-top: 5vh;
+    width: 90vw;
+}
+
+.textboy{
+    margin-left: 30vw;
+    margin-top: -15vh;
+    width: 120vw;
+}
+
+.firstboy{
+    font-size: 4vw;
+    margin-right: 32vh;
+}
+
+.secondboy{
+    font-size: 4vw;
+    margin-right: 32vh;
+}
+
+/*SHOP*/
+.shopshop{
+    height: 60vh;
+}
+
+.casshop{
+    margin: 2vw;
+    width: 92vw;
+}
+
+.firsthover{
+    position: absolute;
+    height: 20vw;
+    width: 92vw;
+    margin-top: -13vh;
+    margin-left: 2vw;
+    background: linear-gradient(180deg, rgba(219, 6, 45, 0) 0%, #48E2DC 100%);
+    transition: opacity 0.7s ease 0s;
+    opacity: 0;
+}
+
+.firsthover:hover{
+    opacity: 1;
+}
+
+.penshop{
+    opacity: 0;
+}
+
+.bagshop{
+    opacity: 0;
+}
+
+.metroshop{
+    opacity: 0;
+}
+
+.noteshop{
+    opacity: 0;
+}
+
+.covershop{
+    opacity: 0;
+}
+
+.how{
+    font-size: 7vw;
+    margin-left: 4vw;
+    margin-top: -67vh;
+}
+
+.howbecome{
+    font-size: 4vw;
+    margin-top: 2vh;
+}
+
+.button7 {
+    max-width: 28vw;
+    position: relative;
+    font-family: 'NeutralFace';
+    font-size: 2.5vw;
+    color: white;
+    background-image: linear-gradient(to right, #48E2DC, #000000, #48E2DC); 
+    padding: 1px;
+    transition: 3s;
+    margin-left: 38vw;
+    margin-top: -11vh;
+}
+
+/*THEEND*/
+.theend{
+    margin-block-end: 5vh;
+}
+
+.podval{
+    margin-top: 2vh;
+    width: 150vw;
+}
+
+.rass{
+    margin-top: -15vh;
+    padding: 2vw;
+    font-size: 3.5vw;
+}
+
+.rassone{
+    padding-block-end: 2vh;
+    font-size: 7vw;
+}
+
+.rasstwo{
+    font-size: 4vw;
+}
+
+.button9 {
+    width: 92vw;
+        position: relative;
+        font-family: 'NeutralFace';
+        font-size: 3.5vw;
+        color: white;
+        background-image: linear-gradient(to right, #48E2DC, #000000, #48E2DC); 
+        padding: 1px;
+        transition: 3s;
+        margin-left: 3vw;
+        margin-top: 2vh;
+}
+
+.connectone {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 1.5vh 22vw;
+    font-size: 3.5vw;
+}
+
+.button10 {
+    max-width: 92vw;
+        position: relative;
+        font-family: 'NeutralFace';
+        font-size: 3.5vw;
+        color: white;
+        background-image: linear-gradient(to right, #48E2DC, #000000, #48E2DC); 
+        padding: 1px;
+        transition: 3s;
+        margin-left: 3vw;
+        margin-top: 2vh;
+}
+
+.connecttwo {
+    background: black;
+    color: white;
+    text-align: center;
+    max-width: 90vw;
+    padding: 1.5vh 4vw;
+}
+
+.contact-form{
+    margin-right: 25vw;
+    margin-top: 3vh;
+}
+
+.data{
+    display: flex;
+    justify-content: space-between;
+    width: 98vw;
+    margin-top: 4vh;
+    font-size: 4vw;
+}
+
+.contacts{
+    font-size: 4vw;
+    margin-left: 3vw;
+}
+
+.contacts-opacity, .information-opacity, .ysluga-opacity{
+    opacity: 100%;
+    padding-block-end: 2vw;
+    font-size: 4vw;
+}
+
+.hover-opacity{
+    font-size: 4vw;
+}
+
+.theend{
+    height: 45vh;
+}
+};
+
+
+/* айпад / 1024 / 768 */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px){
+
+};
